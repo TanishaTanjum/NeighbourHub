@@ -1,0 +1,14 @@
+F:\Project C#\NeighbourHub\NeighbourHub\bin\Debug\NeighbourHub.exe.config
+F:\Project C#\NeighbourHub\NeighbourHub\bin\Debug\NeighbourHub.exe
+F:\Project C#\NeighbourHub\NeighbourHub\bin\Debug\NeighbourHub.pdb
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.csproj.AssemblyReference.cache
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.LoginForm.resources
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.RegisterForm.resources
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.Properties.Resources.resources
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.csproj.GenerateResource.cache
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.csproj.CoreCompileInputs.cache
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.exe
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.pdb
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.BuildingManagerDashboard.resources
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.Login_Profile.resources
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.BuildingInformation.resources
