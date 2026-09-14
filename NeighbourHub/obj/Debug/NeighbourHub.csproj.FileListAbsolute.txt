@@ -40,3 +40,8 @@ C:\Users\Tahmidur Rahman\OneDrive\Desktop\C# final\NeighbourHub\NeighbourHub\obj
 C:\Users\Tahmidur Rahman\OneDrive\Desktop\C# final\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.csproj.CoreCompileInputs.cache
 C:\Users\Tahmidur Rahman\OneDrive\Desktop\C# final\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.exe
 C:\Users\Tahmidur Rahman\OneDrive\Desktop\C# final\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.pdb
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.AdminDashboard.resources
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.AdminManagement.resources
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.Dashboard.resources
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ModuleForm.resources
+F:\Project C#\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ReportForm.resources

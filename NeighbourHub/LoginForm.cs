@@ -30,6 +30,7 @@ namespace NeighbourHub
             string email = txtEmail.Text.Trim();
             string password = txtPassword.Text;
             string role = Convert.ToString(cmbRole.SelectedItem);
+            MessageBox.Show(role);
 
             if (string.IsNullOrWhiteSpace(email))
             {
@@ -129,12 +130,31 @@ namespace NeighbourHub
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
 
-                BuildingManagerDashboard dashboard =
-                    new BuildingManagerDashboard();
-
+                if (CurrentUserRole == "Admin")
+                {
+                    AdminDashboard dashboard =
+                        new AdminDashboard();
                 this.Hide();
                 dashboard.FormClosed += (s, args) => this.Close();
                 dashboard.Show();
+                }
+                else if (CurrentUserRole =="Building Manager")
+                {
+                    BuildingManagerDashboard dashboard =
+                     new BuildingManagerDashboard();
+                    this.Hide();
+                    dashboard.FormClosed += (s, args) => this.Close();
+                    dashboard.Show();
+                }
+                 else if (CurrentUserRole =="Property Owner")
+                {
+                    Dashboard dashboard =
+                     new Dashboard();
+                    this.Hide();
+                    dashboard.FormClosed += (s, args) => this.Close();
+                    dashboard.Show();
+                }
+
             }
             catch (Exception ex)
             {
