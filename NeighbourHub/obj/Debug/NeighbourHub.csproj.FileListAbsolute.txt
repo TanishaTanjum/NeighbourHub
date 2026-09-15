@@ -57,3 +57,12 @@ C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\Neighbour
 C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ReportForm.resources
 C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.PropertyManagementForm.resources
 C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.FlatManagementForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.RentManagementForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.TenantManagementForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ComplaintManagementForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.MaintenanceRequestForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.NoticeManagementForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.OwnerProfileForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.PaymentTrackingForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ReportSummaryForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.UtilityBillManagementForm.resources

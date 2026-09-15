@@ -73,6 +73,12 @@
     <Compile Include="BuildingManagerDashboard.Designer.cs">
       <DependentUpon>BuildingManagerDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="ComplaintManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplaintManagementForm.Designer.cs">
+      <DependentUpon>ComplaintManagementForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Database.cs" />
     <!-- OWNER DASHBOARD -->
     <Compile Include="Form1.cs">
@@ -82,6 +88,30 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <!-- PROPERTY MANAGEMENT -->
+    <Compile Include="MaintenanceRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaintenanceRequestForm.Designer.cs">
+      <DependentUpon>MaintenanceRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoticeManagementForm.Designer.cs">
+      <DependentUpon>NoticeManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OwnerProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OwnerProfileForm.Designer.cs">
+      <DependentUpon>OwnerProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentTrackingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentTrackingForm.Designer.cs">
+      <DependentUpon>PaymentTrackingForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PropertyManagementForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +151,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RentManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentManagementForm.Designer.cs">
+      <DependentUpon>RentManagementForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,10 +164,24 @@
       <DependentUpon>ReportForm.cs</DependentUpon>
     </Compile>
     <!-- RESOURCES -->
+    <Compile Include="ReportSummaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportSummaryForm.Designer.cs">
+      <DependentUpon>ReportSummaryForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TenantManagementForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TenantManagementForm.Designer.cs" />
+    <Compile Include="TenantManagementForm.Designer.cs">
+      <DependentUpon>TenantManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UtilityBillManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UtilityBillManagementForm.Designer.cs">
+      <DependentUpon>UtilityBillManagementForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,10 +194,25 @@
     <EmbeddedResource Include="BuildingManagerDashboard.resx">
       <DependentUpon>BuildingManagerDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ComplaintManagementForm.resx">
+      <DependentUpon>ComplaintManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <!-- PROPERTY MANAGEMENT RESOURCE -->
+    <EmbeddedResource Include="MaintenanceRequestForm.resx">
+      <DependentUpon>MaintenanceRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoticeManagementForm.resx">
+      <DependentUpon>NoticeManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OwnerProfileForm.resx">
+      <DependentUpon>OwnerProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentTrackingForm.resx">
+      <DependentUpon>PaymentTrackingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PropertyManagementForm.resx">
       <DependentUpon>PropertyManagementForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,11 +241,22 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RentManagementForm.resx">
+      <DependentUpon>RentManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ReportForm.resx">
       <DependentUpon>ReportForm.cs</DependentUpon>
     </EmbeddedResource>
     <!-- SETTINGS -->
-    <EmbeddedResource Include="TenantManagementForm.resx" />
+    <EmbeddedResource Include="ReportSummaryForm.resx">
+      <DependentUpon>ReportSummaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TenantManagementForm.resx">
+      <DependentUpon>TenantManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UtilityBillManagementForm.resx">
+      <DependentUpon>UtilityBillManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

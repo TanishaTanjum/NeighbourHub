@@ -135,6 +135,7 @@
             this.b3.Size = new System.Drawing.Size(258, 71);
             this.b3.TabIndex = 2;
             this.b3.Text = "Tenant Management";
+            this.b3.Click += new System.EventHandler(this.b3_Click);
             // 
             // b4
             // 
@@ -145,6 +146,7 @@
             this.b4.Size = new System.Drawing.Size(257, 71);
             this.b4.TabIndex = 3;
             this.b4.Text = "Rent Management";
+            this.b4.Click += new System.EventHandler(this.b4_Click);
             // 
             // b5
             // 
@@ -155,6 +157,7 @@
             this.b5.Size = new System.Drawing.Size(257, 71);
             this.b5.TabIndex = 4;
             this.b5.Text = "Payment Tracking";
+            this.b5.Click += new System.EventHandler(this.b5_Click);
             // 
             // b6
             // 
@@ -165,6 +168,7 @@
             this.b6.Size = new System.Drawing.Size(258, 71);
             this.b6.TabIndex = 5;
             this.b6.Text = "Maintenance Requests";
+            this.b6.Click += new System.EventHandler(this.b6_Click);
             // 
             // b7
             // 
@@ -175,6 +179,7 @@
             this.b7.Size = new System.Drawing.Size(257, 71);
             this.b7.TabIndex = 6;
             this.b7.Text = "Complaint Management";
+            this.b7.Click += new System.EventHandler(this.b7_Click);
             // 
             // b8
             // 
@@ -185,6 +190,7 @@
             this.b8.Size = new System.Drawing.Size(257, 71);
             this.b8.TabIndex = 7;
             this.b8.Text = "Notice Management";
+            this.b8.Click += new System.EventHandler(this.b8_Click);
             // 
             // b9
             // 
@@ -195,6 +201,7 @@
             this.b9.Size = new System.Drawing.Size(258, 71);
             this.b9.TabIndex = 8;
             this.b9.Text = "Utility Bill Management";
+            this.b9.Click += new System.EventHandler(this.b9_Click);
             // 
             // b10
             // 
@@ -205,6 +212,7 @@
             this.b10.Size = new System.Drawing.Size(257, 73);
             this.b10.TabIndex = 9;
             this.b10.Text = "Reports & Summaries";
+            this.b10.Click += new System.EventHandler(this.b10_Click);
             // 
             // b11
             // 
@@ -215,6 +223,7 @@
             this.b11.Size = new System.Drawing.Size(257, 73);
             this.b11.TabIndex = 10;
             this.b11.Text = "Owner Profile";
+            this.b11.Click += new System.EventHandler(this.b11_Click);
             // 
             // button1
             // 
