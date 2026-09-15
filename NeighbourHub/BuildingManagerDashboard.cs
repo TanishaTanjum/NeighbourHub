@@ -24,7 +24,7 @@ namespace NeighbourHub
             HideDatePickers();
         }
 
-        // Hide date pickers and show normal textboxes
+     
         private void HideDatePickers()
         {
             dtpField2.Visible = false;
@@ -34,7 +34,7 @@ namespace NeighbourHub
             txtField3.Visible = true;
         }
 
-        // Change the fields on the right
+      
         private void ShowFeature(
             string title,
             string field1,
@@ -62,14 +62,14 @@ namespace NeighbourHub
 
             HideDatePickers();
 
-            // Notice uses DateTimePicker 2
+           
             if (title == "Notice Management")
             {
                 txtField2.Visible = false;
                 dtpField2.Visible = true;
             }
 
-            // Visitor uses DateTimePicker 3
+          
             if (title == "Visitor Entry Management")
             {
                 txtField3.Visible = false;
@@ -99,21 +99,20 @@ namespace NeighbourHub
             }
         }
 
-        // Login & Profile
         private void btn0_Click(object sender, EventArgs e)
         {
             Login_Profile form = new Login_Profile();
             form.ShowDialog();
         }
 
-        // Building Information
+       
         private void btn1_Click(object sender, EventArgs e)
         {
             BuildingInformation form = new BuildingInformation();
             form.ShowDialog();
         }
 
-        // Flat/Unit
+       
         private void btn2_Click(object sender, EventArgs e)
         {
             ShowFeature(
@@ -126,7 +125,7 @@ namespace NeighbourHub
                 "UnitId");
         }
 
-        // Resident/Tenant
+      
         private void btn3_Click(object sender, EventArgs e)
         {
             ShowFeature(
@@ -139,7 +138,7 @@ namespace NeighbourHub
                 "ResidentId");
         }
 
-        // Notice
+       
         private void btn4_Click(object sender, EventArgs e)
         {
             ShowFeature(
@@ -152,7 +151,7 @@ namespace NeighbourHub
                 "NoticeId");
         }
 
-        // Complaint
+     
         private void btn5_Click(object sender, EventArgs e)
         {
             ShowFeature(
@@ -165,7 +164,7 @@ namespace NeighbourHub
                 "ComplaintId");
         }
 
-        // Visitor
+ 
         private void btn6_Click(object sender, EventArgs e)
         {
             ShowFeature(
@@ -178,7 +177,6 @@ namespace NeighbourHub
                 "VisitorId");
         }
 
-        // Emergency Contact
         private void btn7_Click(object sender, EventArgs e)
         {
             ShowFeature(
@@ -191,7 +189,6 @@ namespace NeighbourHub
                 "ContactId");
         }
 
-        // Maintenance
         private void btn8_Click(object sender, EventArgs e)
         {
             ShowFeature(
@@ -204,7 +201,7 @@ namespace NeighbourHub
                 "MaintenanceId");
         }
 
-        // Utility
+   
         private void btn9_Click(object sender, EventArgs e)
         {
             ShowFeature(
@@ -217,7 +214,6 @@ namespace NeighbourHub
                 "UtilityId");
         }
 
-        // Building Dashboard
         private void btn10_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
@@ -227,7 +223,6 @@ namespace NeighbourHub
                 MessageBoxIcon.Information);
         }
 
-        // Building Report
         private void btn11_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
@@ -237,7 +232,7 @@ namespace NeighbourHub
                 MessageBoxIcon.Information);
         }
 
-        // Check fields
+       
         private bool CheckFields()
         {
             if (string.IsNullOrWhiteSpace(txtField1.Text))
@@ -270,7 +265,7 @@ namespace NeighbourHub
                 return false;
             }
 
-            // Resident phone
+          
             if (currentTable == "Residents")
             {
                 if (txtField3.Text.Length != 11 ||
@@ -292,7 +287,7 @@ namespace NeighbourHub
                 }
             }
 
-            // Emergency phone
+       
             if (currentTable == "EmergencyContacts")
             {
                 if (txtField3.Text.Length != 11 ||
@@ -306,7 +301,7 @@ namespace NeighbourHub
                 }
             }
 
-            // Flat number
+       
             if (currentTable == "Units")
             {
                 int floor;
@@ -329,7 +324,7 @@ namespace NeighbourHub
                 }
             }
 
-            // Maintenance Flat ID
+           
             if (currentTable == "Maintenance")
             {
                 int flatId;
@@ -346,7 +341,7 @@ namespace NeighbourHub
             return true;
         }
 
-        // ADD
+        // Add
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (currentTable == "")
@@ -393,7 +388,7 @@ namespace NeighbourHub
             }
         }
 
-        // EDIT
+        // Edit
         private void btnEdit_Click(object sender, EventArgs e)
         {
             if (selectedId == 0)
@@ -445,7 +440,7 @@ namespace NeighbourHub
             }
         }
 
-        // DELETE
+        // Dlt
         private void btnDelete_Click(object sender, EventArgs e)
         {
             if (selectedId == 0)
@@ -492,7 +487,7 @@ namespace NeighbourHub
             }
         }
 
-        // Select a row
+     
         private void featureGrid_CellClick(
             object sender,
             DataGridViewCellEventArgs e)

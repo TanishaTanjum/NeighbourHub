@@ -24,7 +24,9 @@ namespace NeighbourHub
             using (SqlDataAdapter adapter = new SqlDataAdapter(command))
             {
                 if (parameters != null)
+                {
                     command.Parameters.AddRange(parameters);
+                }
 
                 adapter.Fill(table);
             }
@@ -38,9 +40,12 @@ namespace NeighbourHub
             using (SqlCommand command = new SqlCommand(query, connection))
             {
                 if (parameters != null)
+                {
                     command.Parameters.AddRange(parameters);
+                }
 
                 connection.Open();
+
                 return command.ExecuteNonQuery();
             }
         }
