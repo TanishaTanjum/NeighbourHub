@@ -3,120 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|c:\\users\\reash\\desktop\\oop2 c# project orks reashat kabir\\neighbourhub\\neighbourhub\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\adminmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\adminmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\adminmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\adminmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\buildingmanagerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\buildingmanagerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\buildinginformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\buildinginformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\reportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\reportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\reportform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\reportform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\adminmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\adminmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\buildingmanagerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\buildingmanagerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\buildingmanagerdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\buildingmanagerdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\buildinginformation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\buildinginformation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\buildinginformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\buildinginformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|c:\\users\\reash\\desktop\\oop2 c# project orks reashat kabir\\neighbourhub\\neighbourhub\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|c:\\users\\reash\\desktop\\oop2 c# project orks reashat kabir\\neighbourhub\\neighbourhub\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\moduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\moduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|c:\\users\\reash\\desktop\\oop2 c# project orks reashat kabir\\neighbourhub\\neighbourhub\\flatmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\flatmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\login\u0026profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\login\u0026profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\login\u0026profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\login\u0026profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\neighbourhub\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|c:\\users\\reash\\desktop\\oop2 c# project orks reashat kabir\\neighbourhub\\neighbourhub\\flatmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60333FC4-1B43-4E54-A267-E10FCE42D1BC}|NeighbourHub\\NeighbourHub.csproj|solutionrelative:neighbourhub\\flatmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,338 +34,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BuildingManagerDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\BuildingManagerDashboard.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\BuildingManagerDashboard.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\BuildingManagerDashboard.cs",
-              "RelativeToolTip": "NeighbourHub\\BuildingManagerDashboard.cs",
-              "ViewState": "AgIAAKQBAAAAAAAAAAAQwGkCAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T15:17:12.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\AdminDashboard.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\AdminDashboard.cs",
-              "RelativeToolTip": "NeighbourHub\\AdminDashboard.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowEgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T18:11:38.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminManagement.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\AdminManagement.Designer.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\AdminManagement.Designer.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\AdminManagement.Designer.cs",
-              "RelativeToolTip": "NeighbourHub\\AdminManagement.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T04:51:52.25Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReportForm.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\ReportForm.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\ReportForm.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\ReportForm.cs",
-              "RelativeToolTip": "NeighbourHub\\ReportForm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA0AAAAKAAAAAAAAAA==",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Form1.cs",
+              "RelativeDocumentMoniker": "NeighbourHub\\Form1.cs",
+              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Form1.cs [Design]*",
+              "RelativeToolTip": "NeighbourHub\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T12:13:30.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T17:13:31.706Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Database.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\Database.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Database.cs",
-              "RelativeToolTip": "NeighbourHub\\Database.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Form1.cs",
+              "RelativeDocumentMoniker": "NeighbourHub\\Form1.cs",
+              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Form1.cs*",
+              "RelativeToolTip": "NeighbourHub\\Form1.cs*",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T16:09:21.978Z",
+              "WhenOpened": "2026-09-15T17:12:46.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlatManagementForm.cs",
+              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\FlatManagementForm.cs",
+              "RelativeDocumentMoniker": "NeighbourHub\\FlatManagementForm.cs",
+              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\FlatManagementForm.cs",
+              "RelativeToolTip": "NeighbourHub\\FlatManagementForm.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAADwvyoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T17:17:46.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminManagement.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\AdminManagement.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\AdminManagement.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\AdminManagement.cs",
-              "RelativeToolTip": "NeighbourHub\\AdminManagement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkCAAAHAAAAAAAAAA==",
+              "Title": "FlatManagementForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\FlatManagementForm.cs",
+              "RelativeDocumentMoniker": "NeighbourHub\\FlatManagementForm.cs",
+              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\FlatManagementForm.cs [Design]",
+              "RelativeToolTip": "NeighbourHub\\FlatManagementForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T19:33:08.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BuildingInformation.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\BuildingInformation.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\BuildingInformation.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\BuildingInformation.cs",
-              "RelativeToolTip": "NeighbourHub\\BuildingInformation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T04:22:26.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReportForm.resx",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\ReportForm.resx",
-              "RelativeDocumentMoniker": "NeighbourHub\\ReportForm.resx",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\ReportForm.resx",
-              "RelativeToolTip": "NeighbourHub\\ReportForm.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-09-15T12:17:18.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReportForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\ReportForm.Designer.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\ReportForm.Designer.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\ReportForm.Designer.cs",
-              "RelativeToolTip": "NeighbourHub\\ReportForm.Designer.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA+wBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T12:11:14.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReportForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\ReportForm.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\ReportForm.cs",
-              "ToolTip": "C:\\Users\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\ReportForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\ReportForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T16:07:50.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\AdminDashboard.cs",
-              "ToolTip": "C:\\Users\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\AdminDashboard.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\AdminDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T16:07:42.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\AdminManagement.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\AdminManagement.cs",
-              "ToolTip": "C:\\Users\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\AdminManagement.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\AdminManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T16:07:44.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AdminDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\AdminDashboard.Designer.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\AdminDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\AdminDashboard.Designer.cs",
-              "RelativeToolTip": "NeighbourHub\\AdminDashboard.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T04:59:58.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BuildingManagerDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\BuildingManagerDashboard.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\BuildingManagerDashboard.cs",
-              "ToolTip": "C:\\Users\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\BuildingManagerDashboard.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\BuildingManagerDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T13:39:54.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BuildingManagerDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\BuildingManagerDashboard.Designer.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\BuildingManagerDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\BuildingManagerDashboard.Designer.cs",
-              "RelativeToolTip": "NeighbourHub\\BuildingManagerDashboard.Designer.cs",
-              "ViewState": "AgIAACkCAAAAAAAAAAA6wDsCAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T04:58:16.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BuildingInformation.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\BuildingInformation.Designer.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\BuildingInformation.Designer.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\BuildingInformation.Designer.cs",
-              "RelativeToolTip": "NeighbourHub\\BuildingInformation.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T04:59:03.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\App.config",
-              "RelativeDocumentMoniker": "NeighbourHub\\App.config",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\App.config",
-              "RelativeToolTip": "NeighbourHub\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-09-14T19:37:59.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Form1.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\Form1.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Form1.cs",
-              "RelativeToolTip": "NeighbourHub\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T16:58:23.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Form1.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\Form1.cs",
-              "ToolTip": "F:\\Project C#\\NeighbourHub\\NeighbourHub\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T16:53:37.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\LoginForm.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\LoginForm.cs",
-              "RelativeToolTip": "NeighbourHub\\LoginForm.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAwwJQAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T15:30:06.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ModuleForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\ModuleForm.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\ModuleForm.cs",
-              "ToolTip": "F:\\Project C#\\NeighbourHub\\NeighbourHub\\ModuleForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T16:07:57.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Login\u0026Profile.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Login\u0026Profile.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\Login\u0026Profile.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Login\u0026Profile.cs",
-              "RelativeToolTip": "NeighbourHub\\Login\u0026Profile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T08:35:41.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\RegisterForm.cs",
-              "ToolTip": "F:\\Project C#\\NeighbourHub\\NeighbourHub\\RegisterForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T15:19:46.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\RegisterForm.cs",
-              "RelativeToolTip": "NeighbourHub\\RegisterForm.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAYwAAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T07:44:54.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\LoginForm.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\LoginForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T15:16:13.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BuildingInformation.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\BuildingInformation.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\BuildingInformation.cs",
-              "ToolTip": "C:\\Users\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\BuildingInformation.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Tahmidur Rahman\\OneDrive\\Desktop\\C# final\\NeighbourHub\\NeighbourHub\\BuildingInformation.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T16:19:54.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Login\u0026Profile.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\Login\u0026Profile.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\Login\u0026Profile.cs",
-              "ToolTip": "F:\\Project C#\\NeighbourHub\\NeighbourHub\\Login\u0026Profile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T15:16:11.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "RegisterForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\RegisterForm.Designer.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\RegisterForm.Designer.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\RegisterForm.Designer.cs",
-              "RelativeToolTip": "NeighbourHub\\RegisterForm.Designer.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwD4BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T14:31:54.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "NeighbourHub\\LoginForm.Designer.cs",
-              "ToolTip": "C:\\Users\\reash\\Desktop\\OOP2 C# Project Orks Reashat Kabir\\NeighbourHub\\NeighbourHub\\LoginForm.Designer.cs",
-              "RelativeToolTip": "NeighbourHub\\LoginForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T15:30:52.664Z"
+              "WhenOpened": "2026-09-15T17:17:36.379Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

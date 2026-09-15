@@ -55,3 +55,5 @@ C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\Neighbour
 C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.Dashboard.resources
 C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ModuleForm.resources
 C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ReportForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.PropertyManagementForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.FlatManagementForm.resources

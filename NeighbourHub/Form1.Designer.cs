@@ -113,6 +113,7 @@
             this.b1.Size = new System.Drawing.Size(257, 71);
             this.b1.TabIndex = 0;
             this.b1.Text = "Property Management";
+            this.b1.Click += new System.EventHandler(this.b1_Click);
             // 
             // b2
             // 
@@ -123,6 +124,7 @@
             this.b2.Size = new System.Drawing.Size(257, 71);
             this.b2.TabIndex = 1;
             this.b2.Text = "Flat Management";
+            this.b2.Click += new System.EventHandler(this.b2_Click);
             // 
             // b3
             // 
@@ -222,6 +224,7 @@
             this.button1.Size = new System.Drawing.Size(120, 35);
             this.button1.TabIndex = 11;
             this.button1.Text = "Logout";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Dashboard
             // 

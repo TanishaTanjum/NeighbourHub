@@ -74,11 +74,26 @@
       <DependentUpon>BuildingManagerDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="Database.cs" />
+    <!-- OWNER DASHBOARD -->
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <!-- PROPERTY MANAGEMENT -->
+    <Compile Include="PropertyManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertyManagementForm.Designer.cs">
+      <DependentUpon>PropertyManagementForm.cs</DependentUpon>
+    </Compile>
+    <!-- FLAT / UNIT MANAGEMENT -->
+    <Compile Include="FlatManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlatManagementForm.Designer.cs">
+      <DependentUpon>FlatManagementForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Login&amp;Profile.cs">
       <SubType>Form</SubType>
@@ -112,6 +127,11 @@
     <Compile Include="ReportForm.Designer.cs">
       <DependentUpon>ReportForm.cs</DependentUpon>
     </Compile>
+    <!-- RESOURCES -->
+    <Compile Include="TenantManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TenantManagementForm.Designer.cs" />
     <EmbeddedResource Include="AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +146,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- PROPERTY MANAGEMENT RESOURCE -->
+    <EmbeddedResource Include="PropertyManagementForm.resx">
+      <DependentUpon>PropertyManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- FLAT / UNIT MANAGEMENT RESOURCE -->
+    <EmbeddedResource Include="FlatManagementForm.resx">
+      <DependentUpon>FlatManagementForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login&amp;Profile.resx">
       <DependentUpon>Login&amp;Profile.cs</DependentUpon>
@@ -151,6 +179,8 @@
     <EmbeddedResource Include="ReportForm.resx">
       <DependentUpon>ReportForm.cs</DependentUpon>
     </EmbeddedResource>
+    <!-- SETTINGS -->
+    <EmbeddedResource Include="TenantManagementForm.resx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

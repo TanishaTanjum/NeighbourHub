@@ -10,75 +10,52 @@ namespace NeighbourHub
         public FlatManagementForm()
         {
             InitializeComponent();
-
             LoadProperties();
             LoadUnits();
         }
 
-
         private void LoadProperties()
         {
-            try
-            {
-                DataTable table = Database.Query(
-                    "SELECT ID, PropertyName FROM Properties ORDER BY PropertyName"
-                );
+            DataTable table = Database.Query(
+                "SELECT ID, PropertyName FROM dbo.Properties ORDER BY PropertyName"
+            );
 
-                cmbProperty.DataSource = table;
-                cmbProperty.DisplayMember = "PropertyName";
-                cmbProperty.ValueMember = "ID";
-
-                cmbProperty.SelectedIndex = -1;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(
-                    "Could not load properties.\n\n" + ex.Message
-                );
-            }
+            cmbProperty.DataSource = table;
+            cmbProperty.DisplayMember = "PropertyName";
+            cmbProperty.ValueMember = "ID";
+            cmbProperty.SelectedIndex = -1;
         }
-
 
         private void LoadUnits()
         {
-            try
-            {
-                DataTable table = Database.Query(
-                    @"SELECT 
-                        U.ID,
-                        P.PropertyName,
-                        U.UnitNumber,
-                        U.Floor,
-                        U.Bedrooms,
-                        U.Details
-                      FROM Units U
-                      INNER JOIN Properties P
-                      ON U.PropertyID = P.ID
-                      ORDER BY U.ID"
-                );
+            DataTable table = Database.Query(
+                @"SELECT
+                    F.ID,
+                    P.PropertyName,
+                    F.UnitNumber,
+                    F.Floor,
+                    F.Bedrooms,
+                    F.Details
+                  FROM dbo.FlatUnits F
+                  INNER JOIN dbo.Properties P
+                    ON F.PropertyID = P.ID
+                  ORDER BY F.ID"
+            );
 
-                dgvUnits.Rows.Clear();
+            dgvUnits.Rows.Clear();
 
-                foreach (DataRow row in table.Rows)
-                {
-                    dgvUnits.Rows.Add(
-                        row["ID"],
-                        row["PropertyName"],
-                        row["UnitNumber"],
-                        row["Floor"],
-                        row["Bedrooms"],
-                        row["Details"]
-                    );
-                }
-            }
-            catch (Exception ex)
+            foreach (DataRow row in table.Rows)
             {
-                MessageBox.Show(
-                    "Could not load units.\n\n" + ex.Message
+                dgvUnits.Rows.Add(
+                    row["ID"],
+                    row["PropertyName"],
+                    row["UnitNumber"],
+                    row["Floor"],
+                    row["Bedrooms"],
+                    row["Details"]
                 );
             }
         }
-
 
         private void btnAddUnit_Click(object sender, EventArgs e)
         {
@@ -90,270 +67,174 @@ namespace NeighbourHub
 
             if (txtUnitNumber.Text.Trim() == "")
             {
-                MessageBox.Show("Please enter a flat/unit number.");
+                MessageBox.Show("Please enter a unit number.");
                 return;
             }
 
-            int bedrooms = 0;
+            int bedrooms;
 
-            if (txtBedrooms.Text.Trim() != "")
+            if (!int.TryParse(txtBedrooms.Text.Trim(), out bedrooms))
             {
-                if (!int.TryParse(txtBedrooms.Text.Trim(), out bedrooms))
-                {
-                    MessageBox.Show(
-                        "Bedrooms must be a number."
-                    );
-
-                    return;
-                }
+                MessageBox.Show("Bedrooms must be a number.");
+                return;
             }
 
-            try
-            {
-                string query =
-                    @"INSERT INTO Units
-                      (PropertyID, UnitNumber, Floor, Bedrooms, Details)
+            Database.Execute(
+                @"INSERT INTO dbo.FlatUnits
+                  (PropertyID, UnitNumber, Floor, Bedrooms, Details)
+                  VALUES
+                  (@PropertyID, @UnitNumber, @Floor, @Bedrooms, @Details)",
 
-                      VALUES
-                      (@PropertyID, @UnitNumber, @Floor, @Bedrooms, @Details)";
+                new SqlParameter(
+                    "@PropertyID",
+                    Convert.ToInt32(cmbProperty.SelectedValue)
+                ),
 
-                Database.Execute(
-                    query,
+                new SqlParameter(
+                    "@UnitNumber",
+                    txtUnitNumber.Text.Trim()
+                ),
 
-                    new SqlParameter(
-                        "@PropertyID",
-                        Convert.ToInt32(cmbProperty.SelectedValue)
-                    ),
+                new SqlParameter(
+                    "@Floor",
+                    txtFloor.Text.Trim()
+                ),
 
-                    new SqlParameter(
-                        "@UnitNumber",
-                        txtUnitNumber.Text.Trim()
-                    ),
+                new SqlParameter(
+                    "@Bedrooms",
+                    bedrooms
+                ),
 
-                    new SqlParameter(
-                        "@Floor",
-                        txtFloor.Text.Trim()
-                    ),
+                new SqlParameter(
+                    "@Details",
+                    txtDetails.Text.Trim()
+                )
+            );
 
-                    new SqlParameter(
-                        "@Bedrooms",
-                        bedrooms
-                    ),
+            MessageBox.Show("Flat/unit added successfully.");
 
-                    new SqlParameter(
-                        "@Details",
-                        txtDetails.Text.Trim()
-                    )
-                );
-
-                MessageBox.Show(
-                    "Unit added successfully."
-                );
-
-                ClearFields();
-                LoadUnits();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(
-                    "Could not add unit.\n\n" + ex.Message
-                );
-            }
+            ClearFields();
+            LoadUnits();
         }
-
 
         private void btnEditUnit_Click(object sender, EventArgs e)
         {
             if (dgvUnits.CurrentRow == null ||
                 dgvUnits.CurrentRow.IsNewRow)
             {
-                MessageBox.Show(
-                    "Please select a unit to edit."
-                );
-
+                MessageBox.Show("Please select a unit.");
                 return;
             }
 
             if (cmbProperty.SelectedIndex == -1)
             {
-                MessageBox.Show(
-                    "Please select a property."
-                );
-
+                MessageBox.Show("Please select a property.");
                 return;
             }
 
-            if (txtUnitNumber.Text.Trim() == "")
-            {
-                MessageBox.Show(
-                    "Please enter a flat/unit number."
-                );
+            int bedrooms;
 
+            if (!int.TryParse(txtBedrooms.Text.Trim(), out bedrooms))
+            {
+                MessageBox.Show("Bedrooms must be a number.");
                 return;
             }
 
-            int bedrooms = 0;
+            int id = Convert.ToInt32(
+                dgvUnits.CurrentRow.Cells[0].Value
+            );
 
-            if (txtBedrooms.Text.Trim() != "")
-            {
-                if (!int.TryParse(
-                    txtBedrooms.Text.Trim(),
-                    out bedrooms))
-                {
-                    MessageBox.Show(
-                        "Bedrooms must be a number."
-                    );
+            Database.Execute(
+                @"UPDATE dbo.FlatUnits
+                  SET PropertyID = @PropertyID,
+                      UnitNumber = @UnitNumber,
+                      Floor = @Floor,
+                      Bedrooms = @Bedrooms,
+                      Details = @Details
+                  WHERE ID = @ID",
 
-                    return;
-                }
-            }
+                new SqlParameter(
+                    "@PropertyID",
+                    Convert.ToInt32(cmbProperty.SelectedValue)
+                ),
 
-            try
-            {
-                int unitId = Convert.ToInt32(
-                    dgvUnits.CurrentRow.Cells[0].Value
-                );
+                new SqlParameter(
+                    "@UnitNumber",
+                    txtUnitNumber.Text.Trim()
+                ),
 
-                string query =
-                    @"UPDATE Units
+                new SqlParameter(
+                    "@Floor",
+                    txtFloor.Text.Trim()
+                ),
 
-                      SET PropertyID = @PropertyID,
-                          UnitNumber = @UnitNumber,
-                          Floor = @Floor,
-                          Bedrooms = @Bedrooms,
-                          Details = @Details
+                new SqlParameter(
+                    "@Bedrooms",
+                    bedrooms
+                ),
 
-                      WHERE ID = @ID";
+                new SqlParameter(
+                    "@Details",
+                    txtDetails.Text.Trim()
+                ),
 
-                Database.Execute(
-                    query,
+                new SqlParameter(
+                    "@ID",
+                    id
+                )
+            );
 
-                    new SqlParameter(
-                        "@PropertyID",
-                        Convert.ToInt32(
-                            cmbProperty.SelectedValue
-                        )
-                    ),
+            MessageBox.Show("Flat/unit updated successfully.");
 
-                    new SqlParameter(
-                        "@UnitNumber",
-                        txtUnitNumber.Text.Trim()
-                    ),
-
-                    new SqlParameter(
-                        "@Floor",
-                        txtFloor.Text.Trim()
-                    ),
-
-                    new SqlParameter(
-                        "@Bedrooms",
-                        bedrooms
-                    ),
-
-                    new SqlParameter(
-                        "@Details",
-                        txtDetails.Text.Trim()
-                    ),
-
-                    new SqlParameter(
-                        "@ID",
-                        unitId
-                    )
-                );
-
-                MessageBox.Show(
-                    "Unit updated successfully."
-                );
-
-                ClearFields();
-                LoadUnits();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(
-                    "Could not update unit.\n\n" +
-                    ex.Message
-                );
-            }
+            ClearFields();
+            LoadUnits();
         }
 
-        private void btnDeleteUnit_Click(
-            object sender,
-            EventArgs e)
+        private void btnDeleteUnit_Click(object sender, EventArgs e)
         {
             if (dgvUnits.CurrentRow == null ||
                 dgvUnits.CurrentRow.IsNewRow)
             {
-                MessageBox.Show(
-                    "Please select a unit to delete."
-                );
-
+                MessageBox.Show("Please select a unit.");
                 return;
             }
 
-            int unitId = Convert.ToInt32(
+            int id = Convert.ToInt32(
                 dgvUnits.CurrentRow.Cells[0].Value
             );
 
-            string unitNumber =
-                dgvUnits.CurrentRow.Cells[2]
-                .Value?.ToString();
+            DialogResult result = MessageBox.Show(
+                "Are you sure you want to delete this unit?",
+                "Confirm Delete",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning
+            );
 
-            DialogResult result =
-                MessageBox.Show(
-                    "Are you sure you want to delete Unit " +
-                    unitNumber + "?",
-                    "Confirm Delete",
-                    MessageBoxButtons.YesNo,
-                    MessageBoxIcon.Warning
-                );
-
-            if (result != DialogResult.Yes)
-            {
-                return;
-            }
-
-            try
+            if (result == DialogResult.Yes)
             {
                 Database.Execute(
-                    "DELETE FROM Units WHERE ID = @ID",
-
-                    new SqlParameter(
-                        "@ID",
-                        unitId
-                    )
+                    "DELETE FROM dbo.FlatUnits WHERE ID = @ID",
+                    new SqlParameter("@ID", id)
                 );
 
-                MessageBox.Show(
-                    "Unit deleted successfully."
-                );
+                MessageBox.Show("Flat/unit deleted successfully.");
 
                 ClearFields();
                 LoadUnits();
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(
-                    "Could not delete unit.\n\n" +
-                    ex.Message
-                );
-            }
         }
-
 
         private void dgvUnits_CellClick(
             object sender,
             DataGridViewCellEventArgs e)
         {
             if (e.RowIndex < 0)
-            {
                 return;
-            }
 
             DataGridViewRow row =
                 dgvUnits.Rows[e.RowIndex];
 
-            int unitId =
+            int id =
                 Convert.ToInt32(row.Cells[0].Value);
 
             txtUnitNumber.Text =
@@ -368,68 +249,51 @@ namespace NeighbourHub
             txtDetails.Text =
                 row.Cells[5].Value?.ToString();
 
-            try
-            {
-                DataTable table = Database.Query(
-                    "SELECT PropertyID FROM Units WHERE ID = @ID",
+            DataTable table = Database.Query(
+                "SELECT PropertyID FROM dbo.FlatUnits WHERE ID = @ID",
+                new SqlParameter("@ID", id)
+            );
 
-                    new SqlParameter(
-                        "@ID",
-                        unitId
-                    )
-                );
-
-                if (table.Rows.Count > 0)
-                {
-                    cmbProperty.SelectedValue =
-                        table.Rows[0]["PropertyID"];
-                }
-            }
-            catch (Exception ex)
+            if (table.Rows.Count > 0)
             {
-                MessageBox.Show(ex.Message);
+                cmbProperty.SelectedValue =
+                    table.Rows[0]["PropertyID"];
             }
         }
-
 
         private void ClearFields()
         {
             cmbProperty.SelectedIndex = -1;
-
             txtUnitNumber.Clear();
             txtFloor.Clear();
             txtBedrooms.Clear();
             txtDetails.Clear();
-
             dgvUnits.ClearSelection();
         }
 
-
-        private void btnClose_Click(
-            object sender,
-            EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
         private void btnAddUnit_Click_1(object sender, EventArgs e)
         {
-
+            btnAddUnit_Click(sender, e);
         }
 
         private void btnEditUnit_Click_1(object sender, EventArgs e)
         {
-
+            btnEditUnit_Click(sender, e);
         }
 
         private void btnDeleteUnit_Click_1(object sender, EventArgs e)
         {
-
+            btnDeleteUnit_Click(sender, e);
         }
 
         private void btnClose_Click_1(object sender, EventArgs e)
         {
-
+            btnClose_Click(sender, e);
         }
     }
 }
