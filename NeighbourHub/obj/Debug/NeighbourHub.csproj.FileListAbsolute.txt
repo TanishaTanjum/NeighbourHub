@@ -50,3 +50,8 @@ C:\Users\Tahmidur Rahman\OneDrive\Desktop\C# final\NeighbourHub\NeighbourHub\obj
 C:\Users\Tahmidur Rahman\OneDrive\Desktop\C# final\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.Dashboard.resources
 C:\Users\Tahmidur Rahman\OneDrive\Desktop\C# final\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ModuleForm.resources
 C:\Users\Tahmidur Rahman\OneDrive\Desktop\C# final\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ReportForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.AdminDashboard.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.AdminManagement.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.Dashboard.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ModuleForm.resources
+C:\Users\reash\Desktop\OOP2 C# Project Orks Reashat Kabir\NeighbourHub\NeighbourHub\obj\Debug\NeighbourHub.ReportForm.resources
